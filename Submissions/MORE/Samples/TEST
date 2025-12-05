@@ -1,0 +1,61 @@
+.HEAD 0 +  Exporting Outlines from GrandView for use in Time Line
+
+	
+This version of GrandView includes a new export format 
+for Time Line outlines.  When you choose this format, 
+GrandView creates a file that Time Line can read with 
+its Outline Importer utility.  GrandView only exports 
+the outline; category information is not included. 	
+	
+To export an outline to Time Line follow these steps:	
+
+.HEAD 1 +  Exporting the outline from GrandView
+
+
+.HEAD 2 -  Open the GrandView outline you want to export to Time 
+Line.
+.HEAD 2 -  Select Export from the File Menu by pressing F10 F E.
+.HEAD 2 -  Choose the Time Line Outline format (use the arrow 
+keys to move the cursor to the Time Line Outline 
+option).
+.HEAD 2 -  Select the Export button by pressing the tab key 
+followed by the return key.  GrandView will display 
+the File Listing dialog box.
+.HEAD 2 -  Select the Time Line Data sub-directory from the File 
+Listing dialog box (use the directory button if 
+necessary).
+.HEAD 2 -  Enter an eight character name for the file.  You do 
+not need to give it an extension; GrandView 
+automatically adds a .TXT extension.
+.HEAD 2 -  Choose the OK button by pressing return.
+
+
+.HEAD 1 +  Importing the outline into Time Line
+
+
+.HEAD 2 -  Open Time Line
+.HEAD 2 -  Import the outline by choosing File Import Outline 
+from the Time Line menu (F I O).
+.HEAD 2 -  Select the disk option (D)
+.HEAD 2 -  The file you created in GrandView will be listed in 
+the Time Line directory.  To select the file, use 
+Time Line's Quick Pick feature: type as much of the 
+filename as necessary for the cursor to highlight it. 
+ After the file name is selected, press return.	
+
+.HEAD 1 +  Other Notes
+
+
+.HEAD 2 -  Only outline information is exported; no category 
+information is included.
+.HEAD 2 -  Time Line's outline importer recognizes special codes 
+for resources, durations, costs, etc.  These codes 
+can be imbedded directly into your GrandView outline. 
+ When you import an outline with codes into Time Line, 
+Time Line will translate the codes into the 
+appropriate components of the schedule; the codes 
+will not appear in the task outline.  For more 
+information on these codes and how they can be used, 
+please refer to the Time Line documentation.	
+
+
