@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FFSignatureFile xmlns="http://www.nationalarchives.gov.uk/pronom/SignatureFile" Version="1779459279" DateCreated="2026-05-22T14:14:36+00:00">
+  <InternalSignatureCollection>
+  
+  <InternalSignature ID="1" Specificity="Specific">
+  <ByteSequence Reference="BOFoffset">
+    <SubSequence MinFragLength="3" Position="1" SubSeqMaxOffset="0" SubSeqMinOffset="0">
+      <Sequence>0743414E56</Sequence>
+      <DefaultShift>6</DefaultShift>
+      <Shift Byte="08">5</Shift>
+      <Shift Byte="50">4</Shift>
+      <Shift Byte="52">3</Shift>
+      <Shift Byte="45">2</Shift>
+      <Shift Byte="56">1</Shift>
+      <LeftFragment MaxOffset="0" MinOffset="0" Position="1">00</LeftFragment>
+      <LeftFragment MaxOffset="0" MinOffset="0" Position="1">20</LeftFragment>
+      <LeftFragment MaxOffset="0" MinOffset="0" Position="2">CDCD</LeftFragment>
+    </SubSequence>
+  </ByteSequence>
+</InternalSignature>
+
+  <InternalSignature ID="2" Specificity="Specific">
+  <ByteSequence Reference="BOFoffset">
+    <SubSequence MinFragLength="3" Position="1" SubSeqMaxOffset="0" SubSeqMinOffset="0">
+      <Sequence>0850524556</Sequence>
+      <DefaultShift>6</DefaultShift>
+      <Shift Byte="08">5</Shift>
+      <Shift Byte="50">4</Shift>
+      <Shift Byte="52">3</Shift>
+      <Shift Byte="45">2</Shift>
+      <Shift Byte="56">1</Shift>
+      <LeftFragment MaxOffset="0" MinOffset="0" Position="1">00</LeftFragment>
+      <LeftFragment MaxOffset="0" MinOffset="0" Position="1">20</LeftFragment>
+      <LeftFragment MaxOffset="0" MinOffset="0" Position="2">CDCD</LeftFragment>
+    </SubSequence>
+  </ByteSequence>
+</InternalSignature>
+
+</InternalSignatureCollection>
+<FileFormatCollection>
+
+  <FileFormat ID="1" Name="Discus Project" PUID="BYUdev/1" Version="2-3">
+    <InternalSignatureID>1</InternalSignatureID>
+    <Extension>CDL</Extension>
+  </FileFormat>
+  
+    <FileFormat ID="2" Name="Discus Project" PUID="BYUdev/2" Version="4">
+    <InternalSignatureID>2</InternalSignatureID>
+    <Extension>CD4</Extension>
+  </FileFormat>
+  
+</FileFormatCollection></FFSignatureFile>
