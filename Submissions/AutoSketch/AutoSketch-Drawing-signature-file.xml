@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FFSignatureFile xmlns="http://www.nationalarchives.gov.uk/pronom/SignatureFile" Version="1782537080" DateCreated="2026-06-27T05:11:18+00:00">
+  <InternalSignatureCollection>
+  
+  <InternalSignature ID="1" Specificity="Specific">
+  <ByteSequence Reference="BOFoffset">
+    <SubSequence MinFragLength="0" Position="1" SubSeqMaxOffset="0" SubSeqMinOffset="0">
+      <Sequence>0A000000000B0334</Sequence>
+      <DefaultShift>9</DefaultShift>
+      <Shift Byte="0A">8</Shift>
+      <Shift Byte="00">4</Shift>
+      <Shift Byte="0B">3</Shift>
+      <Shift Byte="03">2</Shift>
+      <Shift Byte="34">1</Shift>
+      <RightFragment MaxOffset="0" MinOffset="0" Position="1">30</RightFragment>
+      <RightFragment MaxOffset="0" MinOffset="0" Position="1">31</RightFragment>
+      <RightFragment MaxOffset="0" MinOffset="0" Position="2">31</RightFragment>
+      <RightFragment MaxOffset="0" MinOffset="0" Position="2">32</RightFragment>
+      <RightFragment MaxOffset="0" MinOffset="0" Position="2">33</RightFragment>
+    </SubSequence>
+  </ByteSequence>
+</InternalSignature>
+
+  <InternalSignature ID="2" Specificity="Specific">
+  <ByteSequence Reference="BOFoffset">
+    <SubSequence MinFragLength="0" Position="1" SubSeqMaxOffset="0" SubSeqMinOffset="0">
+      <Sequence>4175746F536B657463682064726177696E67206461746162617365</Sequence>
+      <DefaultShift>28</DefaultShift>
+      <Shift Byte="41">27</Shift>
+      <Shift Byte="75">26</Shift>
+      <Shift Byte="74">6</Shift>
+      <Shift Byte="6F">24</Shift>
+      <Shift Byte="53">23</Shift>
+      <Shift Byte="6B">22</Shift>
+      <Shift Byte="65">1</Shift>
+      <Shift Byte="63">19</Shift>
+      <Shift Byte="68">18</Shift>
+      <Shift Byte="20">9</Shift>
+      <Shift Byte="64">8</Shift>
+      <Shift Byte="72">15</Shift>
+      <Shift Byte="61">3</Shift>
+      <Shift Byte="77">13</Shift>
+      <Shift Byte="69">12</Shift>
+      <Shift Byte="6E">11</Shift>
+      <Shift Byte="67">10</Shift>
+      <Shift Byte="62">4</Shift>
+      <Shift Byte="73">2</Shift>
+    </SubSequence>
+  </ByteSequence>
+</InternalSignature>
+
+  <InternalSignature ID="3" Specificity="Specific">
+  <ByteSequence Reference="BOFoffset">
+    <SubSequence MinFragLength="0" Position="1" SubSeqMaxOffset="0" SubSeqMinOffset="0">
+      <Sequence>4175746F536B657463682064726177696E67206461746162617365</Sequence>
+      <DefaultShift>28</DefaultShift>
+      <Shift Byte="41">27</Shift>
+      <Shift Byte="75">26</Shift>
+      <Shift Byte="74">6</Shift>
+      <Shift Byte="6F">24</Shift>
+      <Shift Byte="53">23</Shift>
+      <Shift Byte="6B">22</Shift>
+      <Shift Byte="65">1</Shift>
+      <Shift Byte="63">19</Shift>
+      <Shift Byte="68">18</Shift>
+      <Shift Byte="20">9</Shift>
+      <Shift Byte="64">8</Shift>
+      <Shift Byte="72">15</Shift>
+      <Shift Byte="61">3</Shift>
+      <Shift Byte="77">13</Shift>
+      <Shift Byte="69">12</Shift>
+      <Shift Byte="6E">11</Shift>
+      <Shift Byte="67">10</Shift>
+      <Shift Byte="62">4</Shift>
+      <Shift Byte="73">2</Shift>
+      <RightFragment MaxOffset="446" MinOffset="446" Position="1">7632</RightFragment>
+    </SubSequence>
+  </ByteSequence>
+</InternalSignature>
+
+</InternalSignatureCollection>
+<FileFormatCollection>
+
+  <FileFormat ID="1" Name="AutoSketch Drawing" PUID="x-fmt/306" Version="Win">
+    <InternalSignatureID>1</InternalSignatureID>
+    <Extension>skf</Extension>
+    <Extension>skt</Extension>
+  </FileFormat>
+  
+    <FileFormat ID="2" Name="AutoSketch Drawing" PUID="BYUdev/1" Version="1.x">
+    <InternalSignatureID>2</InternalSignatureID>
+    <Extension>skd</Extension>
+    <Extension>skt</Extension>
+  </FileFormat>
+  
+      <FileFormat ID="3" Name="AutoSketch Drawing" PUID="BYUdev/2" Version="2.x">
+    <InternalSignatureID>3</InternalSignatureID>
+    <Extension>skd</Extension>
+    <Extension>skt</Extension>
+    <HasPriorityOverFileFormatID>2</HasPriorityOverFileFormatID>
+  </FileFormat>
+  
+</FileFormatCollection></FFSignatureFile>
