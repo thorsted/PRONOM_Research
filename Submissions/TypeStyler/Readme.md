@@ -1,0 +1,8 @@
+# TypeStyler Document
+- [File Format Wiki](http://fileformats.archiveteam.org/wiki/TypeStyler)
+
+## New Signatures
+
+BYU/dev1 TypeStyler Document 1-3 \
+BOF ```000002[30:FF]{16-20}FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF```
+offset 8

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FFSignatureFile xmlns="http://www.nationalarchives.gov.uk/pronom/SignatureFile" Version="1787286311" DateCreated="2026-08-21T04:25:11+00:00">
+  <InternalSignatureCollection>
+  <InternalSignature ID="1" Specificity="Specific">
+  <ByteSequence Reference="BOFoffset">
+    <SubSequence MinFragLength="20" Position="1" SubSeqMaxOffset="8" SubSeqMinOffset="8">
+      <Sequence>FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF</Sequence>
+      <DefaultShift>65</DefaultShift>
+      <Shift Byte="FF">1</Shift>
+      <LeftFragment MaxOffset="20" MinOffset="16" Position="1">000002[30:FF]</LeftFragment>
+    </SubSequence>
+  </ByteSequence>
+</InternalSignature>
+</InternalSignatureCollection>
+<FileFormatCollection>
+  <FileFormat ID="1" Name="TypeStyler Document" PUID="BYUdev/1" Version="1-3" MIMEType="">
+    <InternalSignatureID>1</InternalSignatureID>
+    <Extension/>
+  </FileFormat>
+</FileFormatCollection></FFSignatureFile>
